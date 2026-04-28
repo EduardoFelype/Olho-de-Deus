@@ -209,7 +209,7 @@ O autor não se responsabiliza pelo uso indevido.
 
 **Eduardo Felype**  
 Engenharia de Software · Cybersecurity  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Eduardo_Felype-blue?style=flat&logo=linkedin)]([https://www.linkedin.com/in/eduardo-felype-760a1725a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Ba%2F6XxdLQTL%2Bq0d9GOuPX9A%3D%3D])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Eduardo_Felype-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/eduardo-felype-760a1725a/)
 
 ---
 
