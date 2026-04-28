@@ -1,0 +1,23 @@
+# HTTP & parsing
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.4
+
+# Recon
+python-whois==0.8.0
+dnspython==2.4.2
+googlesearch-python==1.2.3
+python-nmap==0.7.1
+
+# Terminal
+colorama==0.4.6
+
+# Reports
+reportlab==4.0.9
+
+# API
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Opcional (instale separado se quiser Shodan SDK)
+# shodan==1.30.0
