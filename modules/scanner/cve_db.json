@@ -1,0 +1,85 @@
+{
+  "WordPress": [
+    {"cve": "CVE-2023-5561",  "desc": "Auth bypass via REST API",              "severity": "HIGH"},
+    {"cve": "CVE-2022-21661", "desc": "SQLi no WP_Query",                      "severity": "CRITICAL"},
+    {"cve": "CVE-2023-2745",  "desc": "Directory traversal via wp_lang",       "severity": "MEDIUM"},
+    {"cve": "CVE-2024-6297",  "desc": "XSS armazenado em vários plugins",      "severity": "HIGH"},
+    {"cve": "CVE-2023-39999", "desc": "Exposição de informação sensível",      "severity": "MEDIUM"}
+  ],
+  "Laravel": [
+    {"cve": "CVE-2021-3129",  "desc": "RCE via debug mode (Ignition)",         "severity": "CRITICAL"},
+    {"cve": "CVE-2022-40482", "desc": "Open redirect no Laravel Socialite",    "severity": "MEDIUM"},
+    {"cve": "CVE-2023-29191", "desc": "Bypass de autenticação via remember_token", "severity": "HIGH"}
+  ],
+  "jQuery": [
+    {"cve": "CVE-2019-11358", "desc": "Prototype Pollution",                   "severity": "MEDIUM"},
+    {"cve": "CVE-2020-11022", "desc": "XSS via HTML parsing",                  "severity": "MEDIUM"},
+    {"cve": "CVE-2020-11023", "desc": "XSS via HTML manipulation",             "severity": "MEDIUM"}
+  ],
+  "Apache": [
+    {"cve": "CVE-2021-41773", "desc": "Path Traversal e RCE (Apache 2.4.49)", "severity": "CRITICAL"},
+    {"cve": "CVE-2021-42013", "desc": "Path Traversal bypass (Apache 2.4.50)", "severity": "CRITICAL"},
+    {"cve": "CVE-2022-31813", "desc": "Bypass de controle de acesso via X-Forwarded-For", "severity": "HIGH"},
+    {"cve": "CVE-2023-25690", "desc": "HTTP Request Splitting no mod_proxy",   "severity": "CRITICAL"},
+    {"cve": "CVE-2024-38475", "desc": "Escape de path no mod_rewrite",        "severity": "HIGH"}
+  ],
+  "Nginx": [
+    {"cve": "CVE-2021-23017", "desc": "1-byte heap overflow no resolver",      "severity": "HIGH"},
+    {"cve": "CVE-2022-41741", "desc": "Memory corruption no módulo MP4",       "severity": "HIGH"},
+    {"cve": "CVE-2023-44487", "desc": "HTTP/2 Rapid Reset (DoS)",              "severity": "HIGH"}
+  ],
+  "PHP": [
+    {"cve": "CVE-2024-4577",  "desc": "Argument injection no PHP-CGI",        "severity": "CRITICAL"},
+    {"cve": "CVE-2023-3824",  "desc": "Buffer overflow no parsing de PHAR",   "severity": "CRITICAL"},
+    {"cve": "CVE-2022-31628", "desc": "Bypass de open_basedir via SQLite3",   "severity": "HIGH"},
+    {"cve": "CVE-2021-21708", "desc": "UAF no phpinfo()",                      "severity": "HIGH"}
+  ],
+  "React": [
+    {"cve": "CVE-2018-6341",  "desc": "XSS via atributo href com javascript:", "severity": "MEDIUM"}
+  ],
+  "Next.js": [
+    {"cve": "CVE-2024-34351", "desc": "SSRF via Host header no Server Actions","severity": "HIGH"},
+    {"cve": "CVE-2024-46982", "desc": "Cache poisoning via crafted headers",   "severity": "HIGH"},
+    {"cve": "CVE-2025-29927", "desc": "Bypass de middleware via x-middleware-subrequest", "severity": "CRITICAL"}
+  ],
+  "Django": [
+    {"cve": "CVE-2023-41164", "desc": "DoS via email com unicode muito longo", "severity": "HIGH"},
+    {"cve": "CVE-2023-36053", "desc": "ReDoS em EmailValidator e URLValidator", "severity": "HIGH"},
+    {"cve": "CVE-2024-27351", "desc": "ReDoS no truncatechars_html",           "severity": "MEDIUM"}
+  ],
+  "Firebase": [
+    {"cve": "CVE-2023-3668",  "desc": "Regras de segurança contornáveis via REST", "severity": "HIGH"}
+  ],
+  "Supabase": [
+    {"cve": "CVE-2024-22421", "desc": "Bypass de RLS via funções de segurança definer", "severity": "CRITICAL"}
+  ],
+  "OpenSSL": [
+    {"cve": "CVE-2022-0778",  "desc": "Loop infinito no parsing de certificados (DoS)", "severity": "HIGH"},
+    {"cve": "CVE-2023-0286",  "desc": "Leitura inválida via X.400 GeneralName",        "severity": "HIGH"},
+    {"cve": "CVE-2024-0727",  "desc": "NULL pointer deref via PKCS12 malicioso",       "severity": "MEDIUM"}
+  ],
+  "Node.js": [
+    {"cve": "CVE-2023-30581", "desc": "Bypass de permissões no model de permissão",    "severity": "HIGH"},
+    {"cve": "CVE-2024-22019", "desc": "DoS via HTTP/1.1 com headers grandes",          "severity": "HIGH"}
+  ],
+  "Express": [
+    {"cve": "CVE-2022-24999", "desc": "Prototype Pollution via qs",            "severity": "HIGH"},
+    {"cve": "CVE-2024-43796", "desc": "XSS via response.redirect() no Express 4", "severity": "MEDIUM"}
+  ],
+  "Spring": [
+    {"cve": "CVE-2022-22965", "desc": "Spring4Shell — RCE via data binding",   "severity": "CRITICAL"},
+    {"cve": "CVE-2022-22963", "desc": "RCE via Spring Cloud Function SpEL",    "severity": "CRITICAL"},
+    {"cve": "CVE-2023-20860", "desc": "Bypass de segurança via padrão '**'",  "severity": "HIGH"}
+  ],
+  "Log4j": [
+    {"cve": "CVE-2021-44228", "desc": "Log4Shell — RCE via JNDI lookup",       "severity": "CRITICAL"},
+    {"cve": "CVE-2021-45046", "desc": "Bypass do fix inicial do Log4Shell",    "severity": "CRITICAL"}
+  ],
+  "Cloudflare": [
+    {"cve": "CVE-2023-0175",  "desc": "Bypass de WAF via encoding especial",   "severity": "MEDIUM"}
+  ],
+  "Bootstrap": [
+    {"cve": "CVE-2019-8331",  "desc": "XSS via data-template no tooltip/popover", "severity": "MEDIUM"},
+    {"cve": "CVE-2024-6485",  "desc": "XSS no Bootstrap 5.3.1 data-bs-*",     "severity": "MEDIUM"}
+  ]
+}
